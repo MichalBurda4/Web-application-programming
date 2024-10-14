@@ -1,0 +1,44 @@
+/* Ogólne ustawienia strony */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Stylizacja nagłówków */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Stylizacja kontenerów odtwarzaczy */
+audio, video {
+    display: block;
+    margin: 0 auto 30px auto; /* Wyśrodkowanie i margines na dole */
+    border: 3px solid #2980b9;
+    border-radius: 10px; /* Zaokrąglone rogi */
+}
+
+/* Stylizacja dla odtwarzacza wideo */
+video {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+}
+
+/* Stylizacja dla odtwarzacza audio */
+audio {
+    width: 100%; /* Szerokość na 60% ekranu */
+    max-width: 500px; /* Maksymalna szerokość 500px */
+}
+
+/* Stylizacja elementów multimedialnych po najechaniu */
+audio:hover, video:hover {
+    border-color: #3498db;
+    box-shadow: 0 6px 12px rgba(10, 236, 183, 0.97);
+}
+
