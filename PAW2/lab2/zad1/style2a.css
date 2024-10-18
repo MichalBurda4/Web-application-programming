@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 kolumn */
+    grid-template-rows: repeat(3, 1fr);    /* 3 wiersze */
+    gap: 10px;
+    width:80vw;
+    height: 60vh;
+    background-color: #ffffff;
+    border: 2px solid #0ab0ec;
+    padding: 10px;
+}
+
+.one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 8;
+    background-color: #6ce1fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: #6ce1fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background-color: #6ce1fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    background-color: #6ce1fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid #888;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
